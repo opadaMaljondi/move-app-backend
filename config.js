@@ -1,11 +1,10 @@
 module.exports = {
   //Server database
-  MONGODB_USERNAME: "YOUR_DB_USERNAME",
-  MONGODB_PASSWORD: "YOUR_DB_PASSWORD",
-  MONGODB_DB_NAME: "YOUR_DB_NAME",
+  MONGODB_USERNAME: "opada_movies",
+  MONGODB_PASSWORD: "axios",
+  MONGODB_DB_NAME: "LN8e8LTjDT304reo",
 
-  //Port
-  PORT: process.env.PORT || 5000,
+  PORT:  6000,
 
   //Secret key for API
   SECRET_KEY: "YOUR_SECRET_KEY",
@@ -18,7 +17,7 @@ module.exports = {
   PASSWORD: "YOUR_PASSWORD",
 
   //Server URL
-  baseURL: "https://yourdomain.com/",
+  baseURL: "https//77.37.86.152:6000/",
 
   //aws credentials
   endpoint: "your_endpoint",
@@ -29,4 +28,6 @@ module.exports = {
 
   //Firebase server key for notification
   SERVER_KEY: "YOUR_SERVER_KEY",
+  //opadamonzeraljondi_db_user
+  //cirbcBE3duL9xT6P
 };
